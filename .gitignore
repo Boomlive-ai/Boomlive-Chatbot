@@ -9,14 +9,6 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Ignore FastAPI API directory if needed
-api/
-
-# Ignore dependency files
-requirements.txt
-
-# Ignore Vercel deployment configuration file
-vercel.json
 
 # Ignore logs
 *.log
