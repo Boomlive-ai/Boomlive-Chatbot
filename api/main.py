@@ -35,5 +35,5 @@ async def store_daily_articles():
 @app.get("/")
 async def check_server():
     return "The server is running"
-if __name__ == "__main__":
-    uvicorn.run(app, host="localhost", port=8000)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="localhost", port=8000)
