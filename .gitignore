@@ -1,0 +1,38 @@
+# Ignore Python environment files
+.env
+
+# Ignore virtual environments
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore FastAPI API directory if needed
+api/
+
+# Ignore dependency files
+requirements.txt
+
+# Ignore Vercel deployment configuration file
+vercel.json
+
+# Ignore logs
+*.log
+
+# Ignore test result files
+.coverage
+htmlcov/
+.cache/
+
+# Ignore IDE or editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
