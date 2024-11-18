@@ -45,7 +45,7 @@ def store_docs_in_pinecone_vs(docs, index_name, embeddings, urls):
 #   print(docs, index_name, embeddings)
   send_urls_to_database = add_new_urls_to_database(urls)
   pine_vs = Pinecone.from_documents(documents = docs, embedding = embeddings, index_name=index_name)
-  print(pine_vs)
+#   print(pine_vs)
   return send_urls_to_database
 
 def add_new_urls_to_database(urls):
